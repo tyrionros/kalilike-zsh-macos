@@ -2,10 +2,10 @@ This .zshrc file uses a similar config as Kali Linux, but also includes git stat
 
 ## Install
 
-Install the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) and [menlo powerline font](https://github.com/powerline/fonts) packages using [Homebrew](https://brew.sh/).
-
+Install the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) packages using [Homebrew](https://brew.sh/).
+Install the fonts from the github repository [menlo powerline font](https://github.com/powerline/fonts).
 ```
-brew install zsh-syntax-highlighting zsh-autosuggestions homebrew/cask-fonts/font-menlo-for-powerline
+brew install zsh-syntax-highlighting zsh-autosuggestions
 ```
 
 Backup the existing `.zshrc` and symlink the .zshrc file from this repo to your home directory.
